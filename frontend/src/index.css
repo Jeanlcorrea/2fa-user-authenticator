@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #1c1c1e; /* Cinza escuro */
+  color: #e0e0e0; /* Cinza claro para textos */
+}
+
+.container {
+  width: 320px;
+  padding: 20px;
+  background: #2c2c2e; /* Fundo do container mais escuro */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2, h3, h4 {
+  color: #f0f0f0; /* Tons claros para títulos */
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #555;
+  border-radius: 4px;
+  outline: none;
+  font-size: 14px;
+  background: #3a3a3c; /* Fundo do input escuro */
+  color: #e0e0e0;
+}
+
+.input-field::placeholder {
+  color: #aaa;
+}
+
+.action-button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  background: #444; /* Cinza médio */
+  color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.action-button:hover {
+  background: #666; /* Cinza mais claro ao passar o mouse */
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #2c2c2e;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 400px;  /* Aumentei a largura */
+  min-height: 250px; /* Altura mínima maior para melhor espaçamento */
+}
+
+
+.close-button {
+  background: #777;
+  color: white;
+  border: none;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.qr-container {
+  margin-top: 15px;
+}
+
+.qr-container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: 2px solid #555;
+}
