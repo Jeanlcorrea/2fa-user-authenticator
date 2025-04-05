@@ -20,7 +20,7 @@ app = FastAPI()
 
 # Path to frontend dist (relative to src/main.py)
 BASE_DIR = Path(__file__).resolve().parent.parent
-dist_path = BASE_DIR / "frontend" / "dist"
+dist_path = BASE_DIR / "frontend-dist"
 
 # Serve the assets
 app.mount("/assets", StaticFiles(directory=dist_path / "assets"), name="assets")
