@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: fastapi-react-app
-    env: docker
-    plan: free
-    autoDeploy: true
-    envVars:
-      - key: PORT
-        value: 8000
