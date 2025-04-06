@@ -2,6 +2,13 @@
 
 This project is an MVP for two-factor authentication (2FA) using FastAPI on the backend and React on the frontend.
 
+## 🚀 Production Deployment
+
+This app is currently deployed and available at:
+
+🌐 **[Live App on Railway](https://fastapi-react-app-production.up.railway.app)**  
+
+
 ## 🚀 Features
 
 - User registration
