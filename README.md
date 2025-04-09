@@ -44,7 +44,7 @@ cd ..
 4. Run the application
 
 ```bash
-uvicorn src.main:app --host 0.0.0.0 --port 8007 --reload
+uvicorn app.main:app --host 0.0.0.0 --port 8009 --reload
 ```
 
 Access it at: [http://localhost:8007](http://localhost:8007)

@@ -5,7 +5,7 @@ from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 from datetime import datetime, timedelta
 
-from src.models import User
+from app.models.user import User
 
 SECRET_KEY = "my_secret_key"
 ALGORITHM = "HS256"
