@@ -10,7 +10,7 @@ from app.api.v1.routes_user import router as user_router
 app = FastAPI()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-dist_path = BASE_DIR / "frontend" / "dist"
+dist_path = BASE_DIR / "frontend-dist"
 
 # Static and frontend
 app.mount("/assets", StaticFiles(directory=dist_path / "assets"), name="assets")
