@@ -40,3 +40,8 @@ media/
 *.bak
 *.swp
 *.tmp
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
